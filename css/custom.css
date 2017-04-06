@@ -65,3 +65,119 @@ text-decoration: none;
 	content: url(http://two-column.localhost/css/images/headarrow.png);
 	margin-left: 10px;
 }
+.search-content {
+	font-family: "Bebas Neue";
+	font-size: 20px;
+	padding: 20px;
+Width: 1000px;
+}
+.search-content tbody tr th {
+	vertical-align: bottom;
+}
+.search-content > table > tbody > tr > th:nth-child(3) {
+	padding-left: 36px;
+}
+.search-content > table > tbody > tr > td:nth-child(4) > select {
+	font-family: "Bebas Neue";
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.featured-products-content {
+	width: 1000px;
+}
+.feat-banner {
+	width: 415px;
+	margin: 0 auto;
+}
+.feat-banner img {
+	width: 415px;
+}
+.feat-prod-box {
+	padding-top: 31px;
+	padding-bottom: 31px;
+	width: 800px;
+	margin: 0 auto;
+}
+.product-content {
+	display: inline-block;
+	width: 250px;
+	margin-right: 17px;
+}
+.product-content img {
+	width: 250px;
+}
+.product-content p {
+	text-align: center;
+	margin: 0;
+	font-size: 19px;
+	font-weight: bold;
+}
+.product-content:last-child {
+	margin: 0;
+}
+
+.featured-products-content,
+.sale-products-content{
+	width: 1000px;
+	padding-bottom: 20px;
+	margin: 12px;
+}
+.sale-products-content {
+   border-top: 5px solid #d0d0d0;
+}
+.feat-banner h1 {
+   text-align: center;
+   text-transform: uppercase;
+   font-family: "Bebas Neue";
+   font-size: 74px;
+   padding-top: 15px;
+}
+.featured-products-content,
+.sale-products-content,
+.hat-products-content {
+	width: 1000px;
+	padding-bottom: 20px;
+	margin: 12px;
+}
+.sale-products-content,
+.hat-products-content {
+	border-top: 5px solid #d0d0d0;
+}
+#primary {
+	width: 1000px;
+	float: left;
+	border-right: 5px solid #d0d0d0;
+	margin-top: 28px;
+}
+#secondary {
+	width: 301px;
+	float: right;
+	text-align: right;
+	padding: 20px;
+}
+#content:after {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+.side-division ul {
+	list-style-type: none;
+}
+.side-division ul li a {
+	line-height: 66px;
+}
+.side-category h2 a,
+.side-division ul li a {
+	color: #2f2f2f;
+	font-size: 37px;
+}
+.side-category h2:after {
+	content: url(http://two-column.localhost/css/images/block.png);
+	margin-left: 31px;
+}
+.side-division ul li a:after {
+	content: url(http://two-column.localhost/css/images/block2.png);
+	margin-left: 31px;
+}
