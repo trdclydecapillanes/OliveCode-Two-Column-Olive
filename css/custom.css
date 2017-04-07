@@ -242,6 +242,43 @@ footer h2:before{
 	text-align: center;
 }
 
+.feat-prod-box .product-content p,
+.product-box .product-content p {
+	text-align: center;
+	margin: 0;
+	font-size: 19px;
+	font-weight: bold;
+}
+/*  Apparels Start  */
+
+.product-header h2 {
+	font-family: "Bebas Neue";
+	font-size: 85px;
+	text-align: center;
+}
+.product-box {
+	width: 830px;
+	margin: 0 auto;
+}
+.product-box .product-content,
+.product-box .product-content img {
+	width: 383px;
+}
+.product-box .product-content {
+	display: inline-block;
+	margin-right: 56px;
+	margin-bottom: 40px;
+}
+.product-box .product-content:nth-child(2),
+.product-box .product-content:nth-child(4),
+.product-box .product-content:nth-child(6) {
+	margin: 0;
+}
+
+/*  Apparels End  */
+
+
+
 
 
 
