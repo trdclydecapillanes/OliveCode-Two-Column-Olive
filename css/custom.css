@@ -181,3 +181,72 @@ Width: 1000px;
 	content: url(http://two-column.localhost/css/images/block2.png);
 	margin-left: 31px;
 }
+footer {
+	background-color: #d6e0e2;
+	margin-top: 30px;
+}
+.footer-top {
+	padding: 30px;
+}
+.footer-content {
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-content:nth-child(1) {
+	width: 200px;
+}
+.footer-content:nth-child(1) img {
+	width: 180px;
+}
+.footer-content:nth-child(2) {
+	width: 780px;
+}
+footer h2 {
+font-size: 31px;
+}
+footer h2:before {
+	content: url(http://two-column.localhost/css/images/block.png);
+	margin-right: 19px;
+}
+.foot-division {
+	display: inline-block;
+	vertical-align: top;
+}
+.foot-division ul {
+	list-style-type: none;
+	padding: 0;
+	margin-right: 54px;
+}
+.foot-division:last-child ul {
+	margin-right: 0;
+}
+.foot-division ul li:before {
+	content: url(http://two-column.localhost/css/images/block2.png);
+	margin-right: 18px;
+	margin-left: 11px;
+}
+.foot-division ul li a {
+	font-size: 34px;
+	line-height: 48px;
+	color: #3c3c3c;
+}
+.footer-copyright {
+	width: 1300px;
+	margin: 0 auto;
+	border-top: 5px solid #ababab;
+}
+.footer-copyright p {
+	margin: 0;
+	padding: 13px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
