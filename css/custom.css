@@ -277,6 +277,65 @@ footer h2:before{
 
 /*  Apparels End  */
 
+/*  About Us Start  */
+.about-main,
+.owner-main {
+    padding: 45px 60px;
+    background-color: #D6E0E3;
+    margin: 21px;
+    text-align: center;
+}
+.owner-main {
+    padding: 45px 15px;
+}
+.social-main {
+    padding: 30px 50px;
+    text-align: center;
+    margin: 38px;
+}
+.about-main h2,
+.social-main h3,
+.owner h4,
+.owner h5 {
+    font-family: Bebas Neue;
+    font-size: 60px;
+    color: #404040;
+}
+.owner h4 {
+    font-size: 37px;
+}
+.owner h5 {
+    font-size: 24px;
+    margin: 0;
+}
+.about-main p,
+.owner p {
+    font-size: 22px;
+    line-height: 33px;
+}
+.about-main p {
+    margin: 0;
+}
+.social-main img {
+    width: 93px;
+}
+.social-main ul {
+    list-style-type: none;
+    padding: 0;
+}
+.social-main ul li {
+    display: inline-block;
+}
+.owner {
+    display: inline-block;
+    width: 430px;
+    vertical-align: top;
+    padding: 15px;
+}
+.owner img {
+    width: 400px;
+}
+/*  About Us End  */
 
 
 
