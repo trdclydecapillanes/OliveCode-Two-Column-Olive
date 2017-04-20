@@ -29,7 +29,6 @@ a {
 #page {
 	width: 1349px;
 }
-
 #wrapper {
 	padding: 20px;
 	background-image: url(http://two-column.localhost/css/images/header-slide.jpg);
@@ -42,7 +41,7 @@ a {
 }
 .nav-menu {
 	float: right;
-}
+}  
 .page-title, .nav-menu {
 	display: inline-block;
 	vertical-align: middle;
@@ -65,6 +64,8 @@ a {
 	content: url(http://two-column.localhost/css/images/headarrow.png);
 	margin-left: 10px;
 }
+
+
 
 .search-content {
 	font-family: "Bebas Neue";
