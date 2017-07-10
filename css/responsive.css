@@ -140,7 +140,7 @@ input[type=checkbox]:checked ~ #menu {
 }
 @media only screen and (max-width: 375px) {
 	#wrapper {
-		margin-top: 100px !important;
+		margin-top: 100px !important; 
 	}
 	.nav-menu {
 		top: 53px !important;
