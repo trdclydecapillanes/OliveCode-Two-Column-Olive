@@ -138,7 +138,7 @@ input[type=checkbox]:checked ~ #menu {
 		top: 87px !important;
 	}
 }
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 375px) {
 	#wrapper {
 		margin-top: 100px !important; 
 	}
