@@ -267,6 +267,42 @@ input[type=checkbox]:checked ~ #menu {
 		margin-top: 14px;
 		margin-bottom: 8px;
 	}
+	.about-main,
+	.owner-main {
+		margin-top: 24px;
+		padding: 0;
+	}
+	.owner img {
+		width: 60%;
+		margin-top: 15px;
+	}
+	.owner {
+		padding: 0;
+		width: 100%;
+	}
+	.about-main h2,
+	.social-main h3,
+	.owner h4,
+	.owner h5 {
+		font-size: 30px;
+		padding-top: 10px;
+	}
+	.social-main {
+		padding: 0;
+	}
+	.social-main img {
+		width: 44px;
+	}
+	.about-main p,
+	.owner p {
+		font-size: 18px;
+		line-height: 25px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.about-main p {
+		padding-bottom: 15px;
+	}
 }
 @media only screen and (max-width: 767px) and (min-width: 651px) {
 	#wrapper {
