@@ -2,7 +2,9 @@
 <html>
 <head>
 	<title>Olive-Wears</title>
-	<link rel="stylesheet" href="../css/custom.css"></link>
+	<link rel="stylesheet" href="../css/custom.css">
+	<link rel="stylesheet" href="../css/responsive.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div id="page">
@@ -12,12 +14,16 @@
 					<img src="http://two-column.localhost/css/images/logo.png">
 				</div>	
 				<div class="nav-menu">
-					<ul>
-						<li><a href="http://two-column.localhost/index.html">Home</a></li>
-						<li><a href="#">Apparels</a></li>
-						<li><a href="http://two-column.localhost/about.html">About Us</a></li>
-					</ul>	
-				</div>			
+					<div class="main-menu">
+						<label for="show-menu" class="show-menu">&#9776; Menu</label>
+						<input type="checkbox" id="show-menu" role="button">
+						<ul id="menu">
+							<li><a href="http://two-column.localhost/index.html">Home</a></li>
+							<li><a href="http://two-column.localhost/products.html">Apparels</a></li>
+							<li><a href="http://two-column.localhost/about.html">About Us</a></li>
+						</ul>	
+					</div>
+				</div>
 			</div>
 		</header>
 		<div id="content">
