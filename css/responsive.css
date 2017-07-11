@@ -191,7 +191,7 @@ input[type=checkbox]:checked ~ #menu {
 		margin-top: -63px;
 	}
 	#primary > div.hat-products-content > div.feat-prod-box > div > img {
-		margin-top: -20px''
+		margin-top: -20px;
 	}
 	#primary > div.hat-products-content > div.feat-prod-box > div:nth-child(3) > p:nth-child(2) {
 		margin-top: -43px;
@@ -224,6 +224,35 @@ input[type=checkbox]:checked ~ #menu {
 	}
 	#secondary {
 		display: none;
+	}
+	.footer-content:nth-child(2) > div {
+		display: block;
+	}
+	.footer-content:nth-child(2) {
+		width: 100%;
+	}
+	.footer-content:nth-child(1) img {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.footer-content:nth-child(1) {
+		width: 100% !important;
+	}
+	.footer-copyright {
+		width: 100%;
+	}
+	.footer-copyright p {
+		font-size: 15px;
+	}
+	footer h2 {
+		font-size: 26px;
+	}
+	.foot-division ul li a {
+		font-size: 23px;
+		line-height: 31px;
+	}
+	.footer-top > div:nth-child(2) > div:nth-child(4) {
+		margin-top: -34px;
 	}
 }
 @media only screen and (max-width: 767px) and (min-width: 651px) {
