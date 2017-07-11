@@ -129,6 +129,102 @@ input[type=checkbox]:checked ~ #menu {
 	#primary {
 		margin-top: 0px;
 	}
+	.feat-prod-box > div {
+		display: block;
+		width: 100% !important;
+	}
+	.featured-products-content,
+	.sale-products-content,
+	.hat-products-content {
+		width: 100% !important;
+		margin-left: 0;
+	}
+	.search-content {
+		width: 100%;
+	}
+	.feat-banner {
+		width: 100%;
+	}
+	.feat.prod-box .product-content img {
+		width: 100%;
+	}
+	.feat-prod-box .product-content p,
+	.product-box .product-content p {
+		font-size: 30px;
+	}
+	.feat-banner h1 {
+		padding-top: 17px;
+	}
+	.feat-prod-box .product-content img {
+		width: 92%;
+		margin-left: 4%;
+		margin-top: 26px;
+	}
+	.feat-banner h1 {
+		font-size: 50px;
+	}
+	.feat-banner img {
+		width: 100%;
+	}
+	.search-content table,
+	.feat-prod-box,
+	#page {
+		width: 100%;
+	}
+	.search-content th {
+		font-size: 20px;
+	}
+	.search-content td {
+		width: 29%;
+	}
+	.search-content input[type=text],
+	.search-content select {
+		height: 26px;
+		width: 139%;
+		border: 1px solid;
+		margin-top: 43px;
+	}
+	.search-content > table > tbody > tr > td:nth-child(4) > select {
+		font-size: 40px;
+	}
+	#primary > div.hat-products-content > div.feat-prod-box > div > p:nth-child(2) {
+		margin-top: -63px;
+	}
+	#primary > div.hat-products-content > div.feat-prod-box > div > img {
+		margin-top: -20px''
+	}
+	#primary > div.hat-products-content > div.feat-prod-box > div:nth-child(3) > p:nth-child(2) {
+		margin-top: -43px;
+	}
+	.search-content {
+		padding: 3px;
+		margin-top: -30px;
+	}
+	.search-content > table > tbody > tr > td:nth-child(4) > select {
+		font-size: 12px;
+		width: 100%;
+	}
+	#page {
+		overflow-x: hidden;
+	}
+	.page-title {
+		width: 90%;
+		margin-left: 5%;
+	}
+	.search-content > table > tbody > tr > th:nth-child(3) {
+		padding-left: 36px;
+		text-align: right;
+	}
+	.search-content > table > tbody > tr > th:nth-child(1) {
+		text-align: right;
+	}
+	.search-content table {
+		width: 94%;
+		margin-left: 3%;
+	}
+	#secondary {
+		display: none;
+	}
 }
 @media only screen and (max-width: 767px) and (min-width: 651px) {
 	#wrapper {
